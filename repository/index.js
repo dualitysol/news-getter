@@ -4,7 +4,7 @@ import { localPath } from './constants'
 const filePathFactory = (path, name) => `${path}/${name}.json`
 
 export default {
-  write: ({ name, content, options }) => new Promise((resolve, reject) => {
+  write: ({ name, content }) => new Promise((resolve, reject) => {
     writeFile(filePathFactory(localPath, name), JSON.stringify(content), { overwrite: true }, (err, data) => {
       if (err) {
         console.log('Error writting local file', err)
@@ -14,7 +14,7 @@ export default {
     })
   }),
 
-  read: ({ name, options }) => new Promise((resolve, reject) => {
+  read: ({ name }) => new Promise((resolve, reject) => {
     readFile(filePathFactory(localPath, name), 'utf8', (err, data) => {
       if (err) {
         const { message } = err
