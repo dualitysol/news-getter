@@ -1,0 +1,10 @@
+{
+  "routes": [{
+    "path": "/latest",
+    "handler": {
+      "service": "News",
+      "action": "getLatestNews"
+    },
+    "method": "get"
+  }]
+}
