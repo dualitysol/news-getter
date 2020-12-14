@@ -4,12 +4,12 @@ All local files stores at the path: `news-express/repository/storage` . Data sto
 
 ### Installation
 
-News-express requires [Node.js](https://nodejs.org/) v12+ to run.
+News-getter requires [Node.js](https://nodejs.org/) v12+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ cd news-express
+$ cd news-getter
 $ npm i
 $ npm start
 ```
