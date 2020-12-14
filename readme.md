@@ -19,14 +19,13 @@ $ npm start
 
 For yet here are only unit tests
 
-You can easily run it by:
+You can easily run it by command:
 
-Command:
 ```sh
 $ npm run unit-test
 ```
 
-If your API_KEY for News API is expired, you can use local server with mocked data.
+If your `API_KEY` for News API is expired, you can use local server with mocked data.
 
 Simply run next command:
 
