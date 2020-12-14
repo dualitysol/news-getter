@@ -21,11 +21,10 @@ For yet here are only unit tests
 
 You can easily run it by:
 
-First Tab:
+Command:
 ```sh
 $ npm run unit-test
 ```
-W
 
 ### Package dependencies
 
