@@ -1,0 +1,9 @@
+version: '3'
+services:
+
+  news-express-tests: 
+    build: ./nodejs
+    container_name: news-express-tests
+    volumes: 
+      - ../:/app
+    command: npm run unit-test

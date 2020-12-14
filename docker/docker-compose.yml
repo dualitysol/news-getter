@@ -1,0 +1,9 @@
+version: '3'
+services:
+
+  news-express: 
+    build: ./nodejs
+    container_name: news-express
+    volumes: 
+      - ../:/app
+    command: npm start
