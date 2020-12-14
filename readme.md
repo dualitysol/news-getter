@@ -29,7 +29,9 @@ $ npm run unit-test
 If your API_KEY for News API is expired, you can use local server with mocked data.
 
 Simply run next command:
+
 ```npm run mock-server```
+
 and change value of `NEWS_API_KEY` in `.env`to ``http://localhost:7777/uploads/response.json``
 
 
