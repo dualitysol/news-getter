@@ -1,0 +1,21 @@
+export const CONSOLE_COLORS = {
+  FG_GREEN: '\x1b[32m',
+  FG_YELLOW: '\x1b[33m',
+  BG_RED: '\x1b[41m',
+  BG_GREY: '\x1b[100m',
+  RESET: '\x1b[0m',
+}
+
+export const TAGS_ENUM = {
+  INFO: 'INFO',
+  WARN: 'WARN',
+  ERROR: 'ERROR',
+  DEBUG: 'DEBUG',
+}
+
+export const TAG_COLORS = {
+  [TAGS_ENUM.INFO]: CONSOLE_COLORS.FG_GREEN,
+  [TAGS_ENUM.WARN]: CONSOLE_COLORS.FG_YELLOW,
+  [TAGS_ENUM.ERROR]: CONSOLE_COLORS.BG_RED,
+  [TAGS_ENUM.DEBUG]: CONSOLE_COLORS.BG_GREY,
+}

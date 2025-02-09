@@ -12,6 +12,9 @@
     "dev": "nodemon --exec npm run babel:node -- ./index.js",
     "start": "npm run babel:node -- ./index.js"
   },
+  "imports": {
+    "@*": "./"
+  },
   "author": "Artem Tantsura",
   "license": "ISC",
   "devDependencies": {
@@ -21,10 +24,10 @@
     "@babel/preset-env": "^7.12.7",
     "@babel/register": "^7.12.1",
     "chai": "^4.2.0",
-    "mocha": "^8.2.1"
+    "mocha": "^11.1.0"
   },
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^1.7.9",
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1"

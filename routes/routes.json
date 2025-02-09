@@ -5,6 +5,7 @@
       "service": "News",
       "action": "getLatestNews"
     },
-    "method": "get"
+    "method": "get",
+    "status": 200
   }]
 }
